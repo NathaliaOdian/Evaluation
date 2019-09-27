@@ -9,5 +9,7 @@ namespace ApiEval.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<ApiEval.Models.Student> Students { get; set; }
     }
 }
